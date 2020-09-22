@@ -6,6 +6,11 @@ const path = require('path');
 
 const app = express();
 
+// database
+const db = require('./app/models');
+
+db.sequelize.sync();
+
 // check requests for cors
 app.use(cors());
 

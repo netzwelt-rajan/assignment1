@@ -12,6 +12,14 @@ It requires [node.js](http://nodejs.org/download/)
 The server will run on port 5000.
 You can test it in the (Chrome or Firefox) browser at localhost:5000.
 
+
+App will connect to Mysql database
+
+create a database it not exist
+
+DB-name : demo_app
+
+
 ## Author
 
 - [Rajan Kumar](mailto:netzwelt.rajan@gmail.com)
